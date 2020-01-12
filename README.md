@@ -40,6 +40,10 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## Todo
+
+-   finish algorithms and datastructures
+
 ## Time left: 31 Days
 
 ## Competition date: Febuary 12
@@ -64,32 +68,60 @@
 
 -   Prep for contest
 
-## Todo
-
 ## Websites
 
 -   leetcode.com
 -   hackerrank.com
 
-## CCC information
+## CCC
 
--   https://www.cemc.uwaterloo.ca/contests/computing.html
--   https://cemc.uwaterloo.ca/contests/computing/details.html
--   http://compsci.ca/blog/getting-ready-for-the-canadian-computing-competition/
--   https://www.cemc.uwaterloo.ca/contests/computing/examples.html
+### Information
 
-### Past competitions
+-   Senior or Junior level. Senior is better
+-   School registration: https://www.cemc.uwaterloo.ca/contests/computing.html
+-   CCC Grader: https://cccgrader.com/
+-   Stats: https://www.cemc.uwaterloo.ca/contests/statistics.html#ccc
+    -   2700 contestants in senior level
+    -   Avg score: 22
+    -   Certificate cutoff: 30
+-   3 hours long
+-   5 questions
+-   Each question is worth 15 points
+-   Breakdown
+    -   Questions 1 and 2
+        -   Basic algorithms (e.g., sorting, searching)
+    -   Questions 3 and 4
+        -   More advanced algorithms (e.g., careful counting, some mathematical reasoning)
+    -   Question 5
+        -   IOI level question
+-   Rules: https://cccgrader.com/rules.pdf
+    -   By default, 3 second time limit
+    -   By default, 512MB memory limit
+    -   50 submissions/problem
+    -   max 1 submission/minute
+    -   Feedback provided for testcases
+    -   Maximum score over all submissions in a problem
+    -   Only official documentation is allowed
+        -   Python3: https://docs.python.org/3/reference/index.html
 
--   https://www.cemc.uwaterloo.ca/contests/past_contests.html
+### Github solutions
 
-### Solutions
+-   https://github.com/johnafish/CCC-Solutions
+-   https://github.com/tomzyzhu/DMOJ-solutions
+-   https://github.com/paarthmadan/playground
+-   https://github.com/zecookiez/CanadianComputingCompetition
+-   https://github.com/elibroftw/contest-questions
+-   https://github.com/DevinLeamy/CCC-Solutions
+-   https://github.com/magicalsoup/Competitive-Programming-Solutions-Library
 
--   https://github.com/topics/canadian-computing-competition
--   https://dmoj.ca/
+### Resources
+
+-   Example problem: https://www.cemc.uwaterloo.ca/contests/computing/examples.html
+-   Past contests: https://www.cemc.uwaterloo.ca/contests/past_contests.html#ccc
 
 ## Problems
 
-### Towers of hanoi
+### Towers of hanoi **Todo**
 
 -   https://www.geeksforgeeks.org/c-program-for-tower-of-hanoi/
 -   https://www.khanacademy.org/computing/computer-science/algorithms/towers-of-hanoi/a/towers-of-hanoi
@@ -98,17 +130,17 @@
 
 ### Asymptotic notation
 
--   https://www.khanacademy.org/computing/computer-science/algorithms#asymptotic-notation
--   https://learnxinyminutes.com/docs/asymptotic-notation/
 -   https://www.bigocheatsheet.com/
 -   http://web.mit.edu/16.070/www/lecture/big_o.pdf
 -   https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly
+-   https://github.com/aspittel/coding-cheat-sheets/blob/master/fundamentals/big_o_notation.md
 
-### Data structures
+### Data structures **TODO**
 
 #### Linked lists
 
 -   https://www.geeksforgeeks.org/data-structures/linked-list/
+-   https://github.com/aspittel/coding-cheat-sheets/blob/master/data_structures/linked_lists.md
 
 #### Graphs
 
@@ -117,8 +149,25 @@
 -   https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/
 -   https://softwareengineering.stackexchange.com/questions/168058/what-are-graphs-in-laymens-terms
 -   https://hackernoon.com/graphs-in-cs-and-its-traversal-algorithms-cfee5533f74e
+-   https://github.com/aspittel/coding-cheat-sheets/blob/master/data_structures/graphs.md
 
-### Algorithms
+#### Trees
+
+-   https://github.com/aspittel/coding-cheat-sheets/blob/master/data_structures/trees.md
+
+#### Heaps
+
+-   https://github.com/aspittel/coding-cheat-sheets/blob/master/data_structures/heaps.md
+
+#### Queues
+
+-   https://github.com/aspittel/coding-cheat-sheets/blob/master/data_structures/queue.md
+
+#### Stacks
+
+-   https://github.com/aspittel/coding-cheat-sheets/blob/master/data_structures/stack.md
+
+### Algorithms **ToDO**
 
 #### Binary search
 
@@ -158,17 +207,23 @@
 2. Conquer by recursively sorting the subarrays in each of the two subproblems created by the divide step. That is, recursively sort the subarray array[p..q] and recursively sort the subarray array[q+1..r].
 3. Combine by merging the two sorted subarrays back into the single sorted subarray array[p..r].
 
+-   https://github.com/TSiege/Tech-Interview-Cheat-Sheet#merge-sort
+
 #### Quicksort
 
 -   https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort
+-   https://github.com/TSiege/Tech-Interview-Cheat-Sheet#quicksort
 
 #### Breadth-first search
 
 -   https://www.khanacademy.org/computing/computer-science/algorithms/breadth-first-search/a/breadth-first-search-and-its-uses
+-   https://github.com/TSiege/Tech-Interview-Cheat-Sheet#breadth-first-search
 
 #### Depth-first search
 
-## Dynamic programming
+-   https://github.com/TSiege/Tech-Interview-Cheat-Sheet#depth-first-search
+
+## Dynamic programming **todo**
 
 -   https://blog.usejournal.com/top-50-dynamic-programming-practice-problems-4208fed71aa3
 -   https://www.geeksforgeeks.org/dynamic-programming/
@@ -181,12 +236,13 @@
 
 ## Cheatsheets
 
+-   https://www.bigocheatsheet.com/
 -   https://github.com/aspittel/coding-cheat-sheets
 -   https://github.com/TSiege/Tech-Interview-Cheat-Sheet
 
 ## Resources
 
--   https://www.khanacademy.org/computing/computer-science/algorithms/algorithms-more-learning/a/where-to-go-from-here
+-   https://www.khanacademy.org/computing/computer-science/algorithms
 -   https://docs.python.org/3/
 -   https://github.com/yangshun/tech-interview-handbook
 -   https://github.com/aspittel/coding-cheat-sheets
@@ -197,3 +253,5 @@
 -   https://github.com/ossu/computer-science
 -   https://teachyourselfcs.com/
 -   https://spin.atomicobject.com/2015/05/15/obtaining-thorough-cs-background-online/
+-   https://github.com/Daniel-Liu-c0deb0t/Competitive-Programming-Club-Notes
+-   https://github.com/Daniel-Liu-c0deb0t/General-Algorithms
