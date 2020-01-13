@@ -3,42 +3,44 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
--   [Todo](#todo)
--   [Time left: 31 Days](#time-left-31-days)
--   [Competition date: Febuary 12](#competition-date-febuary-12)
--   [Roadmap](#roadmap)
-    -   [Week 1](#week-1)
-    -   [Week 2](#week-2)
-    -   [Week 3 and 4](#week-3-and-4)
-    -   [Week 5](#week-5)
--   [Websites](#websites)
--   [CCC](#ccc)
-    -   [Information](#information)
-    -   [Github solutions](#github-solutions)
-    -   [Resources](#resources)
--   [Problems](#problems)
-    -   [Towers of hanoi **Todo**](#towers-of-hanoi-todo)
--   [Topics](#topics)
-    -   [Asymptotic notation](#asymptotic-notation)
-    -   [Data structures **TODO**](#data-structures-todo)
-        -   [Linked lists](#linked-lists)
-        -   [Graphs](#graphs)
-        -   [Trees](#trees)
-        -   [Heaps](#heaps)
-        -   [Queues](#queues)
-        -   [Stacks](#stacks)
-    -   [Algorithms **ToDO**](#algorithms-todo)
-        -   [Binary search](#binary-search)
-        -   [Selection sort](#selection-sort)
-        -   [Insertion sort](#insertion-sort)
-        -   [Mergesort](#mergesort)
-        -   [Quicksort](#quicksort)
-        -   [Breadth-first search](#breadth-first-search)
-        -   [Depth-first search](#depth-first-search)
--   [Dynamic programming **todo**](#dynamic-programming-todo)
-    -   [Memoization](#memoization)
--   [Cheatsheets](#cheatsheets)
--   [Resources](#resources-1)
+
+- [Todo](#todo)
+- [Time left: 31 Days](#time-left-31-days)
+- [Competition date: Febuary 12](#competition-date-febuary-12)
+- [Roadmap](#roadmap)
+  - [Week 1](#week-1)
+  - [Week 2](#week-2)
+  - [Week 3 and 4](#week-3-and-4)
+  - [Week 5](#week-5)
+- [Websites](#websites)
+- [CCC](#ccc)
+  - [Information](#information)
+  - [Github solutions](#github-solutions)
+  - [Resources](#resources)
+- [Problems](#problems)
+  - [Towers of hanoi **Todo**](#towers-of-hanoi-todo)
+- [Topics](#topics)
+  - [Asymptotic notation](#asymptotic-notation)
+  - [Data structures](#data-structures)
+    - [Linked lists](#linked-lists)
+    - [Graphs](#graphs)
+    - [Trees](#trees)
+    - [Heaps](#heaps)
+    - [Stacks](#stacks)
+    - [Queues](#queues)
+  - [Algorithms](#algorithms)
+    - [Binary search](#binary-search)
+    - [Selection sort](#selection-sort)
+    - [Insertion sort](#insertion-sort)
+    - [Mergesort](#mergesort)
+    - [Quicksort](#quicksort)
+    - [Breadth-first search](#breadth-first-search)
+    - [Depth-first search](#depth-first-search)
+    - [Dijkitra's algorithm](#dijkitras-algorithm)
+- [Dynamic programming **todo**](#dynamic-programming-todo)
+  - [Memoization](#memoization)
+- [Cheatsheets](#cheatsheets)
+- [Resources](#resources-1)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -137,7 +139,7 @@
 -   https://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly
 -   https://github.com/aspittel/coding-cheat-sheets/blob/master/fundamentals/big_o_notation.md
 
-### Data structures **TODO**
+### Data structures
 
 #### Linked lists
 
@@ -149,27 +151,30 @@
 -   https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/describing-graphs
 -   http://web.cecs.pdx.edu/~sheard/course/Cs163/Doc/Graphs.html
 -   https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/
--   https://softwareengineering.stackexchange.com/questions/168058/what-are-graphs-in-laymens-terms
--   https://hackernoon.com/graphs-in-cs-and-its-traversal-algorithms-cfee5533f74e
--   https://github.com/aspittel/coding-cheat-sheets/blob/master/data_structures/graphs.md
 
 #### Trees
 
 -   https://github.com/aspittel/coding-cheat-sheets/blob/master/data_structures/trees.md
+-   https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structures-bceacb85490c/
 
 #### Heaps
 
 -   https://github.com/aspittel/coding-cheat-sheets/blob/master/data_structures/heaps.md
-
-#### Queues
-
--   https://github.com/aspittel/coding-cheat-sheets/blob/master/data_structures/queue.md
+-   https://www.geeksforgeeks.org/heap-data-structure/
 
 #### Stacks
 
+-   last-in-first-out
+
 -   https://github.com/aspittel/coding-cheat-sheets/blob/master/data_structures/stack.md
 
-### Algorithms **ToDO**
+#### Queues
+
+-   first-in-first-out
+
+-   https://github.com/aspittel/coding-cheat-sheets/blob/master/data_structures/queue.md
+
+### Algorithms
 
 #### Binary search
 
@@ -205,13 +210,17 @@
 
 -   https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/divide-and-conquer-algorithms
 
-1. Divide by finding the number qqq of the position midway between ppp and rrr. Do this step the same way we found the midpoint in binary search: add ppp and rrr, divide by 2, and round down.
+1. Divide by finding the number q of the position midway between p and r. Do this step the same way we found the midpoint in binary search: add p and r, divide by 2, and round down.
 2. Conquer by recursively sorting the subarrays in each of the two subproblems created by the divide step. That is, recursively sort the subarray array[p..q] and recursively sort the subarray array[q+1..r].
 3. Combine by merging the two sorted subarrays back into the single sorted subarray array[p..r].
 
 -   https://github.com/TSiege/Tech-Interview-Cheat-Sheet#merge-sort
 
 #### Quicksort
+
+1. Divides entire dataset in half by selecting the middle element and putting all smaller elements to the left of the element and larger ones to the right.
+2. It repeats this process on the left side until it is comparing only two elements at which point the left side is sorted.
+3. When the left side is finished sorting it performs the same operation on the right side.
 
 -   https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort
 -   https://github.com/TSiege/Tech-Interview-Cheat-Sheet#quicksort
@@ -220,10 +229,16 @@
 
 -   https://www.khanacademy.org/computing/computer-science/algorithms/breadth-first-search/a/breadth-first-search-and-its-uses
 -   https://github.com/TSiege/Tech-Interview-Cheat-Sheet#breadth-first-search
+-   https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/
 
 #### Depth-first search
 
 -   https://github.com/TSiege/Tech-Interview-Cheat-Sheet#depth-first-search
+-   https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
+
+#### Dijkitra's algorithm
+
+TODO
 
 ## Dynamic programming **todo**
 
