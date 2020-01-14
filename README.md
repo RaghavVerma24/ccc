@@ -3,50 +3,48 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
-- [Todo](#todo)
-- [Time left: 31 Days](#time-left-31-days)
-- [Competition date: Febuary 12](#competition-date-febuary-12)
-- [Roadmap](#roadmap)
-  - [Week 1](#week-1)
-  - [Week 2](#week-2)
-  - [Week 3 and 4](#week-3-and-4)
-  - [Week 5](#week-5)
-- [Websites](#websites)
-- [CCC](#ccc)
-  - [Information](#information)
-  - [Github solutions](#github-solutions)
-  - [Resources](#resources)
-- [Problems](#problems)
-  - [Towers of hanoi **Todo**](#towers-of-hanoi-todo)
-- [Topics](#topics)
-  - [Asymptotic notation](#asymptotic-notation)
-  - [Data structures](#data-structures)
-    - [Linked lists](#linked-lists)
-    - [Graphs](#graphs)
-    - [Trees](#trees)
-    - [Heaps](#heaps)
-    - [Stacks](#stacks)
-    - [Queues](#queues)
-  - [Algorithms](#algorithms)
-    - [Binary search](#binary-search)
-    - [Selection sort](#selection-sort)
-    - [Insertion sort](#insertion-sort)
-    - [Mergesort](#mergesort)
-    - [Quicksort](#quicksort)
-    - [Breadth-first search](#breadth-first-search)
-    - [Depth-first search](#depth-first-search)
-    - [Dijkitra's algorithm](#dijkitras-algorithm)
-- [Dynamic programming **todo**](#dynamic-programming-todo)
-  - [Memoization](#memoization)
-- [Cheatsheets](#cheatsheets)
-- [Resources](#resources-1)
+-   [Todo](#todo)
+-   [Time left: 31 Days](#time-left-31-days)
+-   [Competition date: Febuary 12](#competition-date-febuary-12)
+-   [Roadmap](#roadmap)
+    -   [Week 1](#week-1)
+    -   [Week 2](#week-2)
+    -   [Week 3 and 4](#week-3-and-4)
+    -   [Week 5](#week-5)
+-   [Websites](#websites)
+-   [CCC](#ccc)
+    -   [Information](#information)
+    -   [Github solutions](#github-solutions)
+    -   [Resources](#resources)
+-   [Problems](#problems)
+    -   [Towers of hanoi](#towers-of-hanoi)
+-   [Topics](#topics)
+    -   [Asymptotic notation](#asymptotic-notation)
+    -   [Data structures](#data-structures)
+        -   [Linked lists](#linked-lists)
+        -   [Graphs](#graphs)
+        -   [Trees](#trees)
+        -   [Heaps](#heaps)
+        -   [Stacks](#stacks)
+        -   [Queues](#queues)
+    -   [Algorithms](#algorithms)
+        -   [Binary search](#binary-search)
+        -   [Selection sort](#selection-sort)
+        -   [Insertion sort](#insertion-sort)
+        -   [Mergesort](#mergesort)
+        -   [Quicksort](#quicksort)
+        -   [Breadth-first search](#breadth-first-search)
+        -   [Depth-first search](#depth-first-search)
+-   [Dynamic programming **todo**](#dynamic-programming-todo)
+    -   [Memoization](#memoization)
+-   [Cheatsheets](#cheatsheets)
+-   [Resources](#resources-1)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Todo
 
--   finish algorithms and datastructures
+-   finish algorithms and datas tructures
 
 ## Time left: 31 Days
 
@@ -125,7 +123,7 @@
 
 ## Problems
 
-### Towers of hanoi **Todo**
+### Towers of hanoi
 
 -   https://www.geeksforgeeks.org/c-program-for-tower-of-hanoi/
 -   https://www.khanacademy.org/computing/computer-science/algorithms/towers-of-hanoi/a/towers-of-hanoi
@@ -235,10 +233,6 @@
 
 -   https://github.com/TSiege/Tech-Interview-Cheat-Sheet#depth-first-search
 -   https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
-
-#### Dijkitra's algorithm
-
-TODO
 
 ## Dynamic programming **todo**
 
