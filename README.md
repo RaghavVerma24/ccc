@@ -44,8 +44,6 @@
 
 ## Todo
 
--   finish algorithms and data structures
-
 ## Time left: 30 Days
 
 ## Competition date: Febuary 12
