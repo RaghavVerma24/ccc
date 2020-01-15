@@ -44,7 +44,7 @@
 
 ## Todo
 
-## Time left: 30 Days
+## Time left: 29 Days
 
 ## Competition date: Febuary 12
 
@@ -52,9 +52,9 @@
 
 ### Week 1
 
--   Find resources
--   Learn what needs to be learned
--   make notes
+-   Find resources **done**
+-   Learn what needs to be learned **done**
+-   make notes **done**
 
 ### Week 2
 
