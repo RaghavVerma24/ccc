@@ -44,7 +44,7 @@
 
 ## Todo
 
-## Time left: 28 Days
+## Time left: 27 Days
 
 ## Competition date: Febuary 12
 
