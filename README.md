@@ -4,7 +4,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 -   [Todo](#todo)
--   [Time left: 31 Days](#time-left-31-days)
+-   [Time left: 27 Days](#time-left-27-days)
 -   [Competition date: Febuary 12](#competition-date-febuary-12)
 -   [Roadmap](#roadmap)
     -   [Week 1](#week-1)
@@ -37,6 +37,8 @@
         -   [Depth-first search](#depth-first-search)
 -   [Dynamic programming **todo**](#dynamic-programming-todo)
     -   [Memoization](#memoization)
+-   [Two pointer search of array](#two-pointer-search-of-array)
+-   [backtracking](#backtracking)
 -   [Cheatsheets](#cheatsheets)
 -   [Resources](#resources-1)
 
@@ -242,6 +244,10 @@
 
 -   https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/a/improving-efficiency-of-recursive-functions
 -   https://www.geeksforgeeks.org/memoization-1d-2d-and-3d/
+
+## Two pointer search of array
+
+## backtracking
 
 ## Cheatsheets
 
