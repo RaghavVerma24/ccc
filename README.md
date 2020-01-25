@@ -46,7 +46,7 @@
 
 ## Todo
 
-## Time left: 27 Days
+## Time left: 18 Days
 
 ## Competition date: Febuary 12
 
@@ -58,7 +58,7 @@
 -   Learn what needs to be learned **done**
 -   make notes **done**
 
-### Week 2
+### Week 2 **done**
 
 -   Do leetcode and hackerrank problems
 
