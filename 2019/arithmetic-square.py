@@ -1,5 +1,7 @@
-square = [[char for char in input().split()] for _ in range(3)]
-# square = [['8', '9', '10'], ['16', 'X', '20'], ['24', 'X', '30']]
+import copy
+
+# square = [[char for char in input().split()] for _ in range(3)]
+square = [['8', 'X', 'X'], ['16', 'X', '20'], ['24', 'X', '30']]
 
 
 def print_square(square):
@@ -59,13 +61,40 @@ def fill_in(square):
 
 
 while True:
-    square2 = fill_in(square)
 
-    if square2 == square:
+    temp = copy.deepcopy(square)
+
+    square2 = fill_in(temp)
+
+    if square == square2:
         square = square2
         break
     else:
         square = square2
+
+num_numbers = 0
+numbers = []
+for r in range(3):
+    for c in range(3):
+        if square[r][c] != "X":
+            num_numbers += 1
+            numbers.append(square[r][c])
+
+
+def fill_values(square, value):
+    for r in range(3):
+        for c in range(3):
+            if square[r][c] == "X":
+                square[r][c] = value
+
+    return square
+
+
+if num_numbers == 0:
+    square = fill_values(square, 0)
+elif num_numbers == 1:
+    square = fill_values(square, numbers[0])
+
 
 print_square(square)
 
