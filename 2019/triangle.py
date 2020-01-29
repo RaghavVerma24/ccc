@@ -20,7 +20,6 @@ def get_triangle(r, c, size):
 
 
 for i in range(0, N - K + 1):
-    # for j in range(0, len(triangle[i])):
     for j in range(0, i + 1):
         ans += get_triangle(i, j, K)
 

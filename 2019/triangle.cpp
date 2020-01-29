@@ -5,7 +5,6 @@
 
 using namespace std;
 
-// int get_triangle(int r, int c, int size, std::vector<std::vector<int>> triangle)
 int get_triangle(int r, int c, int size, int triangle[][1000])
 {
     int max_val = 0;
@@ -27,26 +26,20 @@ int main()
     int N;
     int K;
 
-    // std::vector<std::vector<int>> triangle;
-    int triangle[1000][1000];
+    int triangle[3999][3999];
 
-    // cin >> N >> K;
     scanf("%d", &N);
     scanf("%d", &K);
 
     int temp = 1;
     for (int i = 0; i < N; ++i)
     {
-        // std::vector<int> temp3;
         for (int j = 0; j < temp; ++j)
         {
             int temp2;
             scanf("%d", &temp2);
             triangle[i][j] = temp2;
-            // temp3.push_back(temp2);
         }
-
-        // triangle.push_back(temp3);
 
         temp += 1;
     }
@@ -61,15 +54,6 @@ int main()
     }
 
     printf("%d", ans);
-
-    // for (auto row : triangle)
-    // {
-    //     for (auto el : row)
-    //     {
-    //         cout << el << " ";
-    //     }
-    //     cout << "\n";
-    // }
 
     return 0;
 }
