@@ -44,9 +44,11 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+`clang++ -std=c++11 -stdlib=libc++ tourism.cpp -o tourism.out`
+
 ## Todo
 
-## Time left: 18 Days
+## Time left: 16 Days
 
 ## Competition date: Febuary 12
 
@@ -115,11 +117,24 @@
 -   https://github.com/elibroftw/contest-questions
 -   https://github.com/DevinLeamy/CCC-Solutions
 -   https://github.com/magicalsoup/Competitive-Programming-Solutions-Library
+-   https://github.com/mannyamorim/CCC-Solutions
+-   https://github.com/patrzykat/CCC
+-   https://github.com/camranhansen/algorithms
+-   https://github.com/karmdesai/CCC-Practice
+-   https://github.com/TDSElliott/ccc-solutions
+-   https://github.com/AnaCoda/CanadianComputingCompetition
+-   https://github.com/alish2001/Competitive-Java/tree
+-   https://github.com/Luke-zhang-04/CCC-Junior-Problems
+-   https://github.com/charlescchen/CCC-Solutions
+-   https://github.com/tylertian123/CompSciSolutions/
+-   https://github.com/elibroftw/contest-questions
+-   http://mmhs.ca/ccc/index.htm
 
 ### Resources
 
 -   Example problem: https://www.cemc.uwaterloo.ca/contests/computing/examples.html
 -   Past contests: https://www.cemc.uwaterloo.ca/contests/past_contests.html#ccc
+-   https://dmoj.ca/tips/#python-main
 
 ## Problems
 
