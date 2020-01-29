@@ -1,11 +1,16 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <stdio.h>
+#include "stdio.h"
 
 using namespace std;
 
-int get_triangle(int r, int c, int size, int triangle[][1000])
+int N;
+int K;
+
+int triangle[3000][3000];
+
+int get_triangle(int r, int c, int size, int triangle[][3000])
 {
     int max_val = 0;
 
@@ -22,23 +27,17 @@ int get_triangle(int r, int c, int size, int triangle[][1000])
 
 int main()
 {
+    cin.sync_with_stdio(0);
+    cin.tie(0);
 
-    int N;
-    int K;
-
-    int triangle[3999][3999];
-
-    scanf("%d", &N);
-    scanf("%d", &K);
+    cin >> N >> K;
 
     int temp = 1;
     for (int i = 0; i < N; ++i)
     {
         for (int j = 0; j < temp; ++j)
         {
-            int temp2;
-            scanf("%d", &temp2);
-            triangle[i][j] = temp2;
+            cin >> triangle[i][j];
         }
 
         temp += 1;
@@ -53,7 +52,7 @@ int main()
         }
     }
 
-    printf("%d", ans);
+    cout << ans;
 
     return 0;
 }
