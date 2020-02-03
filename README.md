@@ -270,6 +270,12 @@
 -   https://github.com/aspittel/coding-cheat-sheets
 -   https://github.com/TSiege/Tech-Interview-Cheat-Sheet
 
+## CCC insights
+
+### 2016 s3
+
+-   shortest path to visit all nodes in a tree = 2 \* # edges in tree with all the vertices being restaurants - longest path in tree
+
 ## Resources
 
 -   https://www.khanacademy.org/computing/computer-science/algorithms
