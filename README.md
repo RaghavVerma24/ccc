@@ -4,18 +4,25 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 -   [Todo](#todo)
--   [Time left: 27 Days](#time-left-27-days)
+-   [Time left: 6 Days](#time-left-6-days)
 -   [Competition date: Febuary 12](#competition-date-febuary-12)
 -   [Roadmap](#roadmap)
     -   [Week 1](#week-1)
-    -   [Week 2](#week-2)
-    -   [Week 3 and 4](#week-3-and-4)
-    -   [Week 5](#week-5)
+    -   [Week 2 **done**](#week-2-done)
+    -   [Week 3 -5](#week-3--5)
 -   [Websites](#websites)
 -   [CCC](#ccc)
     -   [Information](#information)
-    -   [Github solutions](#github-solutions)
+    -   [solutions](#solutions)
+        -   [Github Repos](#github-repos)
     -   [Resources](#resources)
+-   [C++ tips](#c-tips)
+    -   [C++ memoization](#c-memoization)
+    -   [max of two values](#max-of-two-values)
+    -   [max of array/vector](#max-of-arrayvector)
+    -   [copy vector](#copy-vector)
+    -   [copy array](#copy-array)
+    -   [erase value](#erase-value)
 -   [Problems](#problems)
     -   [Towers of hanoi](#towers-of-hanoi)
 -   [Topics](#topics)
@@ -40,6 +47,8 @@
 -   [Two pointer search of array](#two-pointer-search-of-array)
 -   [backtracking](#backtracking)
 -   [Cheatsheets](#cheatsheets)
+-   [CCC insights](#ccc-insights)
+    -   [2016 s3](#2016-s3)
 -   [Resources](#resources-1)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -48,7 +57,7 @@
 
 ## Todo
 
-## Time left: 14 Days
+## Time left: 6 Days
 
 ## Competition date: Febuary 12
 
@@ -64,13 +73,9 @@
 
 -   Do leetcode and hackerrank problems
 
-### Week 3 and 4
+### Week 3 -5
 
 -   Do problems for the last 5+ years
-
-### Week 5
-
--   Prep for contest
 
 ## Websites
 
@@ -108,7 +113,11 @@
     -   Only official documentation is allowed
         -   Python3: https://docs.python.org/3/reference/index.html
 
-### Github solutions
+### solutions
+
+-   DMOJ `dmoj.ca` has editorials for most older questions
+
+#### Github Repos
 
 -   https://github.com/johnafish/CCC-Solutions
 -   https://github.com/tomzyzhu/DMOJ-solutions
@@ -135,6 +144,67 @@
 -   Example problem: https://www.cemc.uwaterloo.ca/contests/computing/examples.html
 -   Past contests: https://www.cemc.uwaterloo.ca/contests/past_contests.html#ccc
 -   https://dmoj.ca/tips/#python-main
+
+## C++ tips
+
+Add this to top of main() (from: https://dmoj.ca/tips/)
+
+```
+cin.sync_with_stdio(0);
+cin.tie(0);
+```
+
+Initialize arrays in global scope
+
+### C++ memoization
+
+```
+#include <map>
+
+
+std::map<std::vector<int>, int> memoize; # define memoize map
+
+if (memoize.find(arr) == memoize.end()) { # if not in memoize
+    memozize[arr] = 1; # Add item to memoize
+} else {
+    return memoize[arr]; # Return value for key
+}
+
+```
+
+### max of two values
+
+```
+std::max(a, b);
+```
+
+### max of array/vector
+
+```
+int max = *std::max_element(vec.begin(), vec.end());
+int max = *std::max_element(arr, arr + 10);
+```
+
+### copy vector
+
+```
+std::vector<int> vec2(vec1);
+```
+
+### copy array
+
+```
+  int myints[]={10,20,30,40,50,60,70};
+  std::vector<int> myvector (7);
+
+  std::copy ( myints, myints+7, myvector.begin());
+```
+
+### erase value
+
+```
+temp.erase(temp.begin() + i);
+```
 
 ## Problems
 
@@ -291,3 +361,7 @@
 -   https://spin.atomicobject.com/2015/05/15/obtaining-thorough-cs-background-online/
 -   https://github.com/Daniel-Liu-c0deb0t/Competitive-Programming-Club-Notes
 -   https://github.com/Daniel-Liu-c0deb0t/General-Algorithms
+
+```
+
+```
