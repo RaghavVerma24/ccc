@@ -1,6 +1,5 @@
 {
-    "files.associations": {
-        "algorithm": "cpp",
-        "vector": "cpp"
-    }
+	"files.associations": {
+		"algorithm": "cpp"
+	}
 }
