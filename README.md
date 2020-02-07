@@ -112,6 +112,7 @@
     -   Maximum score over all submissions in a problem
     -   Only official documentation is allowed
         -   Python3: https://docs.python.org/3/reference/index.html
+-   CCC 2016 was hit by a DDOS attack, so the CCCQR was held with 3 problems ranging from S2-S5 difficulty
 
 ### solutions
 
