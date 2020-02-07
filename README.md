@@ -23,6 +23,9 @@
     -   [copy vector](#copy-vector)
     -   [copy array](#copy-array)
     -   [erase value](#erase-value)
+    -   [Comparing c-style arrays for equality](#comparing-c-style-arrays-for-equality)
+    -   [Convert string to int](#convert-string-to-int)
+    -   [Access each char in a string](#access-each-char-in-a-string)
 -   [Problems](#problems)
     -   [Towers of hanoi](#towers-of-hanoi)
 -   [Topics](#topics)
@@ -57,7 +60,7 @@
 
 ## Todo
 
-## Time left: 6 Days
+## Time left: 5 Days
 
 ## Competition date: Febuary 12
 
@@ -205,6 +208,26 @@ std::vector<int> vec2(vec1);
 
 ```
 temp.erase(temp.begin() + i);
+```
+
+### Comparing c-style arrays for equality
+
+```
+std::equal(arr1, arr1+N-1, arr2);
+```
+
+### Convert string to int
+
+```
+string s = "12345";
+int x = s;
+```
+
+### Access each char in a string
+
+```
+string s = "12345";
+s[0];
 ```
 
 ## Problems
