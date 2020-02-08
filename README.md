@@ -142,6 +142,7 @@
 -   https://github.com/tylertian123/CompSciSolutions/
 -   https://github.com/elibroftw/contest-questions
 -   http://mmhs.ca/ccc/index.htm
+-   https://github.com/JasonXZLiu/ComputerContest
 
 ### Resources
 
