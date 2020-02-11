@@ -60,7 +60,7 @@
 
 ## Todo
 
-## Time left: 4 Days
+## Time left: 3 Days
 
 ## Competition date: Febuary 12
 
@@ -76,7 +76,7 @@
 
 -   Do leetcode and hackerrank problems
 
-### Week 3 -5
+### Week 3-5
 
 -   Do problems for the last 5+ years
 
